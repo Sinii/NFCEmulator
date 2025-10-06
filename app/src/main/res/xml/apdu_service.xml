@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/service_name"
+    android:requireDeviceUnlock="false">
+    
+    <!-- Standard Mifare AIDs -->
+    <aid-group
+        android:description="@string/card_title"
+        android:category="other">
+        <aid android:name="F0010203040506" />
+        <aid android:name="F0010203040507" />
+        <aid android:name="F0010203040508" />
+        <aid android:name="D2760000850101" />
+        <aid android:name="A0000002471001" />
+        <aid android:name="F0000000000000" />
+    </aid-group>
+    
+    <!-- Generic AID for compatibility -->
+    <aid-group
+        android:description="@string/card_title"
+        android:category="other">
+        <aid android:name="0000000000000000" />
+        <aid android:name="FFFFFFFFFFFFFFFF" />
+    </aid-group>
+    
+    <!-- Payment AIDs for broader compatibility -->
+    <aid-group
+        android:description="@string/card_title"
+        android:category="payment">
+        <aid android:name="A0000002471001" />
+        <aid android:name="A000000333010101" />
+        <aid android:name="A000000333010102" />
+    </aid-group>
+</host-apdu-service>

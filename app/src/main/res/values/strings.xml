@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NFCEmulator</string>
+    <string name="service_name">NFC Card Emulation Service</string>
+    <string name="card_title">House Access Card</string>
+    <string name="read_nfc">Read NFC Card</string>
+    <string name="save_card">Save Card</string>
+    <string name="emulate_card">Emulate Card</string>
+    <string name="stop_emulation">Stop Emulation</string>
+    <string name="nfc_not_available">NFC is not available on this device</string>
+    <string name="nfc_disabled">Please enable NFC in settings</string>
+    <string name="card_read_success">Card read successfully</string>
+    <string name="card_saved">Card saved successfully</string>
+    <string name="emulation_started">Card emulation started</string>
+    <string name="emulation_stopped">Card emulation stopped</string>
+</resources>
